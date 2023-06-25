@@ -1,0 +1,10 @@
+s=set()
+s.add(1)
+s.add(2)
+s.add(3)
+s.add(4)
+s.add(4) #It doesn't add to set.As only unique elements are added to set.
+print(s)
+s.remove(3)
+print(s)
+print(f"The set has {len(s)} elements.")
