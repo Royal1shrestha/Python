@@ -37,7 +37,7 @@ label = Label(window,textvariable=eq_label,bg="white",width=12,height=2,font=('c
 label.pack(fill=BOTH)
 
 frame = Frame(window)
-frame.pack(fill=BOTH,expand=True)
+frame.pack()
 
 
 button_1 = Button(frame,command=lambda:button_push(0),text=0,width=5,height=2,font=20)
